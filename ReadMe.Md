@@ -24,4 +24,4 @@ Implemented the same logic using Go if-else statements.
 
 GitHub:
 Used git add, commit, and push to upload Day 3 programs.
-*Another update on March 5, 2026.*
+

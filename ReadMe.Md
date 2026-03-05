@@ -25,7 +25,7 @@ Implemented the same logic using Go if-else statements.
 GitHub:
 Used git add, commit, and push to upload Day 3 programs.
 
-# Day 4 
+## Day 4 
 
 Python:
 Learned how loops work using the `for` loop.

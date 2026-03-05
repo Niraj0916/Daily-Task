@@ -25,3 +25,32 @@ Implemented the same logic using Go if-else statements.
 GitHub:
 Used git add, commit, and push to upload Day 3 programs.
 
+# Day 4 – Loops
+
+## Python
+Learned how loops work using the `for` loop.
+
+Programs implemented:
+- Multiplication table
+- Factorial calculation
+
+## Go (Golang)
+Practiced loops using Go's `for` statement.
+
+Programs implemented:
+- Multiplication table
+- Factorial program
+- Fibonacci series
+
+## Concepts Learned
+- Looping concepts
+- Repetition in programming
+- Basic algorithm practice
+
+## Commands Used
+
+Run Python program:
+python python_loops.py
+
+Run Go program:
+go run go_loops.go

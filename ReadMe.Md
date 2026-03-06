@@ -55,3 +55,27 @@ Concepts Learned:
 - Working with arrays and slices in Go
 - Using functions to organize code
 
+## Day 5
+
+Python: Built a simple CLI todo application and learned how modules, imports, and error handling work in Python.
+
+Programs implemented:
+
+- Simple command line todo application
+- Modules and imports example using datetime
+- Error handling using try and except
+
+Go (Golang): Learned how structs organize data and how Go handles errors.
+
+Programs implemented:
+
+- Student struct example
+- Book struct practice program
+- Error handling using strconv conversion
+
+Concepts Learned:
+
+- Structs for organizing related data
+- Error handling in Python using try/except
+- Error handling in Go using error values
+- Building simple command line tools

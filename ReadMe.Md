@@ -28,21 +28,30 @@ Used git add, commit, and push to upload Day 3 programs.
 ## Day 4 
 
 Python:
-Learned how loops work using the `for` loop.
+Learned how loops work using the `for` loop and practiced working with lists, dictionaries, and functions.
 
 Programs implemented:
 - Multiplication table
 - Factorial calculation
+- List operations (adding and printing elements)
+- Dictionary example (storing and accessing key-value data)
+- Calculator program using functions
 
 Go (Golang):
-Practiced loops using Go's `for` statement.
+Practiced loops using Go's `for` statement and learned arrays, slices, and functions.
 
 Programs implemented:
 - Multiplication table
 - Factorial program
 - Fibonacci series
+- Array traversal program
+- Slice example
+- Calculator program using functions
 
 Concepts Learned:
 - Looping concepts
 - Repetition in programming
 - Basic algorithm practice
+- Working with arrays and slices in Go
+- Using functions to organize code
+

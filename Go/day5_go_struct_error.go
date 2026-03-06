@@ -19,7 +19,7 @@ type Book struct {
 
 func day5() {
 
-	fmt.Println("----- Struct Introduction -----")
+	fmt.Println("-- Struct Introduction --")
 
 	s1 := Student{
 		name:   "Niraj",
@@ -31,12 +31,12 @@ func day5() {
 	fmt.Println("Age:", s1.age)
 	fmt.Println("Course:", s1.course)
 
-	fmt.Println("\n----- Struct Practice -----")
+	fmt.Println("\n--- Struct Practice ---")
 
 	book1 := Book{
 		title:  "Learning Go",
 		author: "John Doe",
-		price:  599.99,
+		price:  600.49,
 	}
 
 	fmt.Println("Book Title:", book1.title)

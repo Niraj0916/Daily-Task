@@ -2,8 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
-
+func day3() {
 	var num int
 	fmt.Print("Enter a number: ")
 	fmt.Scan(&num)

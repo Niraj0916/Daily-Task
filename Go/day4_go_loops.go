@@ -2,10 +2,8 @@ package main
 
 import "fmt"
 
-func main() {
-
+func day4() {
 	// Multiplication Table
-
 	var num int
 	fmt.Print("Enter a number: ")
 	fmt.Scan(&num)
@@ -16,21 +14,17 @@ func main() {
 	}
 
 	// Factorial
-
 	var n int
 	fmt.Print("Enter number to find factorial: ")
 	fmt.Scan(&n)
 
 	factorial := 1
-
 	for i := 1; i <= n; i++ {
 		factorial *= i
 	}
-
 	fmt.Println("Factorial is:", factorial)
 
 	// Fibonacci Series
-
 	var terms int
 	fmt.Print("Enter number of Fibonacci terms: ")
 	fmt.Scan(&terms)
@@ -39,7 +33,6 @@ func main() {
 	b := 1
 
 	fmt.Println("Fibonacci Series:")
-
 	for i := 0; i < terms; i++ {
 		fmt.Print(a, " ")
 		next := a + b

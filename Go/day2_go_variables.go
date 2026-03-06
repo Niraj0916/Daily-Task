@@ -2,8 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
-
+func day2() {
 	var name string = "Niraj"
 	var age int = 22
 	var height float64 = 5.9

@@ -7,4 +7,6 @@ func main() {
 	day4()
 	day4_arrays()
 	day4_functions()
+	day5()
+
 }

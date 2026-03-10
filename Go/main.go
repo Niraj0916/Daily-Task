@@ -8,5 +8,6 @@ func main() {
 	day4_arrays()
 	day4_functions()
 	day5()
+	day7()
 
 }

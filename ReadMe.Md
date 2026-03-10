@@ -79,3 +79,29 @@ Concepts Learned:
 - Error handling in Python using try/except
 - Error handling in Go using error values
 - Building simple command line tools
+
+## Day 7
+
+Python: Practiced object-oriented programming by creating classes and methods to represent real-world objects.
+
+Programs implemented:
+
+* Calculator class with add, subtract, multiply, and divide methods
+* Book class with title, author, and pages attributes
+* Display function to print book information
+
+Go (Golang): Learned how Go uses structs and receiver methods to implement object-oriented style programming.
+
+Programs implemented:
+
+* Calculator struct with methods for addition, subtraction, multiplication, and division
+* Book struct with fields for title, author, and pages
+* DisplayInfo() method to print formatted book information
+
+Concepts Learned:
+
+* Classes and objects in Python
+* Structs as Go’s alternative to classes
+* Methods attached to structs using receivers
+* Organizing related data and behavior together
+* Basic error handling when dividing by zero

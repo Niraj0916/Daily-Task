@@ -105,3 +105,35 @@ Concepts Learned:
 * Methods attached to structs using receivers
 * Organizing related data and behavior together
 * Basic error handling when dividing by zero
+
+## Day 8
+
+Python: Practiced object-oriented programming using inheritance and polymorphism to model animal behavior.
+
+Programs implemented:
+
+* Animal parent class with name attribute and speak() method
+* Dog child class that inherits from Animal and overrides speak() to return "Woof"
+* Cat child class that inherits from Animal and overrides speak() to return "Meow"
+* Created objects of Dog and Cat to demonstrate different behaviors
+* Used a list of animals and looped through them to demonstrate polymorphism
+
+Go (Golang): Learned how Go implements object-oriented behavior using struct composition and interfaces instead of inheritance.
+
+Programs implemented:
+
+* Animal struct with name field
+* Dog struct embedding Animal to demonstrate composition
+* Cat struct embedding Animal
+* Speak() methods implemented for Dog and Cat
+* Speaker interface with Speak() method
+* Created a slice of Speaker interface type and looped through it to demonstrate polymorphism
+
+Concepts Learned:
+
+* Inheritance in Python using parent and child classes
+* Method overriding in child classes
+* Polymorphism using the same method name with different outputs
+* Composition in Go as an alternative to inheritance
+* Interfaces in Go to define shared behavior
+* Using slices of interfaces to achieve polymorphism

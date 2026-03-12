@@ -160,15 +160,6 @@ Programs implemented:
 * Getter method to retrieve account balance
 
 
-Linux (Bash / CLI): Practiced editing and executing scripts using command-line tools.
-
-Programs implemented:
-
-* Created and edited scripts using `nano` and `vim`
-* Script displaying system information using `whoami`, `free -h`, and `df -h`
-* Executed scripts using `chmod +x` and `./script.sh`
-
-
 Concepts Learned:
 
 * Encapsulation for protecting internal data in Python
@@ -176,5 +167,3 @@ Concepts Learned:
 * Abstract base classes and enforced method implementation
 * Struct methods and pointer receivers in Go
 * Data validation in application logic
-* Editing and executing scripts using Linux text editors
-* Using command-line tools for system monitoring

@@ -1,36 +1,75 @@
 class BankAccount:
 
-    def __init__(self, owner, balance):
+    def __init__(self, owner, balance, pin):
         self.owner = owner
-        self.__balance = balance   # private variable
+        self.__balance = balance
+        self.__pin = pin
 
     def deposit(self, amount):
         if amount > 0:
             self.__balance += amount
             print("Deposit successful")
-        else:
-            print("Invalid deposit")
 
-    def withdraw(self, amount):
+    def withdraw(self, amount, entered_pin):
+
+        if entered_pin != self.__pin:
+            print("Incorrect PIN")
+            return
+
         if amount <= self.__balance:
             self.__balance -= amount
             print("Withdrawal successful")
         else:
-            print("Insufficient funds")
+            print("Insufficient balance")
 
-    def get_balance(self):
-        return self.__balance
+    def check_balance(self, entered_pin):
+
+        if entered_pin != self.__pin:
+            print("Incorrect PIN")
+            return
+
+        print("Current Balance:", self.__balance)
 
 
-def run_bank_example():
+def run_bank_account():
 
-    account = BankAccount("Niraj", 1000)
+    owner = input("Enter account holder name: ")
+    balance = float(input("Enter initial balance: "))
+    pin = input("Set a 4-digit PIN: ")
 
-    account.deposit(500)
-    account.withdraw(200)
+    account = BankAccount(owner, balance, pin)
 
-    print("Current Balance:", account.get_balance())
-run_bank_example()
+    while True:
+
+        print("\n1. Deposit")
+        print("2. Withdraw")
+        print("3. Check Balance")
+        print("4. Exit")
+
+        choice = input("Enter choice: ")
+
+        if choice == "1":
+            amount = float(input("Enter deposit amount: "))
+            account.deposit(amount)
+
+        elif choice == "2":
+            amount = float(input("Enter withdrawal amount: "))
+            entered_pin = input("Enter PIN: ")
+            account.withdraw(amount, entered_pin)
+
+        elif choice == "3":
+            entered_pin = input("Enter PIN: ")
+            account.check_balance(entered_pin)
+
+        elif choice == "4":
+            print("Exiting...")
+            break
+
+        else:
+            print("Invalid choice")
+
+
+run_bank_account()
 
 #Abstraction
 from abc import ABC, abstractmethod

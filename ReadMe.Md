@@ -137,3 +137,44 @@ Concepts Learned:
 * Composition in Go as an alternative to inheritance
 * Interfaces in Go to define shared behavior
 * Using slices of interfaces to achieve polymorphism
+
+## Day 9
+
+Python: Practiced OOP concepts using encapsulation and abstraction to model secure data handling and enforce method implementation.
+
+Programs implemented:
+
+* BankAccount class with private balance using encapsulation
+* Deposit and withdraw methods with validation logic
+* Shape abstract base class with abstract area() method
+* Circle and Rectangle classes implementing area calculation
+
+
+Go (Golang): Implemented struct methods and encapsulation concepts using receiver functions and validation logic.
+
+Programs implemented:
+
+* BankAccount struct with owner and balance fields
+* Deposit and withdraw methods using pointer receivers
+* Validation logic to prevent invalid transactions
+* Getter method to retrieve account balance
+
+
+Linux (Bash / CLI): Practiced editing and executing scripts using command-line tools.
+
+Programs implemented:
+
+* Created and edited scripts using `nano` and `vim`
+* Script displaying system information using `whoami`, `free -h`, and `df -h`
+* Executed scripts using `chmod +x` and `./script.sh`
+
+
+Concepts Learned:
+
+* Encapsulation for protecting internal data in Python
+* Private variables and controlled access using methods
+* Abstract base classes and enforced method implementation
+* Struct methods and pointer receivers in Go
+* Data validation in application logic
+* Editing and executing scripts using Linux text editors
+* Using command-line tools for system monitoring

@@ -167,3 +167,29 @@ Concepts Learned:
 * Abstract base classes and enforced method implementation
 * Struct methods and pointer receivers in Go
 * Data validation in application logic
+
+## Day 10
+
+Python: Implemented a simple web service using Flask and containerized the application using Docker to run inside an isolated environment.
+
+Programs implemented:
+
+* Flask web server with a route returning a simple message
+* Application configured to run on port 5000 and accessible through Docker
+* Dockerfile created to package the Python application and install dependencies using requirements.txt
+
+Go (Golang): Implemented a lightweight HTTP server using Go’s net/http package and containerized the application using Docker.
+
+Programs implemented:
+
+* HTTP web server responding with a simple message using the net/http package
+* Handler function for the root route ("/") returning a response to the browser
+* Dockerfile created to compile the Go program into a binary and run it inside a container
+
+Concepts Learned:
+
+* Containerization using Docker to package applications with their dependencies
+* Building Docker images using Dockerfile instructions
+* Running containerized services and exposing ports for browser access
+* Using Docker Compose to run multiple services (Python and Go) together
+* Basic microservice architecture with separate containers for different services

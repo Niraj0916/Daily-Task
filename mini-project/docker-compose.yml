@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+
+  python-service:
+    build: ./python-web
+    ports:
+      - "5000:5000"
+
+  go-service:
+    build: ./go-web
+    ports:
+      - "8080:8080"
